@@ -33,7 +33,7 @@ package com.iluwatar.intercepting.filter;
  * stream into a form suitable for processing.
  * <p>
  * The classic solution consists of a series of conditional checks, with any failed check aborting
- * the request. Nested if/else statements are a standard strategy, but this solution leads to code
+ * the request. Nested if/else statements are a standard strategy2, but this solution leads to code
  * fragility and a copy-and-paste style of programming, because the flow of the filtering and the
  * action of the filters is compiled into the application.
  * <p>

@@ -23,6 +23,7 @@
 package com.iluwatar.factorykit;
 
 /**
+ * 弓箭
  * Class representing Bows
  */
 public class Bow implements Weapon {

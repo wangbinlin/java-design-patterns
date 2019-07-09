@@ -23,7 +23,8 @@
 package com.iluwatar.strategy;
 
 /**
- * 
+ *
+ * 捕杀龙接口
  * Strategy interface.
  * 
  */

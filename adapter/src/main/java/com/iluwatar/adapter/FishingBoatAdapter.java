@@ -23,7 +23,7 @@
 package com.iluwatar.adapter;
 
 /**
- *
+ * 渔船适配器，适配划艇接口
  * Adapter class. Adapts the interface of the device ({@link FishingBoat}) into {@link RowingBoat}
  * interface expected by the client ({@link Captain}).
  *

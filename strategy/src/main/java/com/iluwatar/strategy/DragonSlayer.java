@@ -23,7 +23,7 @@
 package com.iluwatar.strategy;
 
 /**
- * 
+ * 龙行者--杀龙人
  * DragonSlayer uses different strategies to slay the dragon.
  * 
  */

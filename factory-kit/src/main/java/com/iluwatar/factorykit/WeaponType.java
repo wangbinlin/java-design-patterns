@@ -23,6 +23,7 @@
 package com.iluwatar.factorykit;
 
 /**
+ * 武器类型枚举
  * Enumerates {@link Weapon} types
  */
 public enum WeaponType {

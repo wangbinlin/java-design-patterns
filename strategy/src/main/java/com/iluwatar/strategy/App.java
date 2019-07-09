@@ -35,7 +35,7 @@ import org.slf4j.LoggerFactory;
  * with method references and lambdas making the code shorter and more readable.
  * <p>
  * In this example ({@link DragonSlayingStrategy}) encapsulates an algorithm. The containing object
- * ({@link DragonSlayer}) can alter its behavior by changing its strategy.
+ * ({@link DragonSlayer}) can alter its behavior by changing its strategy2.
  * 
  */
 public class App {

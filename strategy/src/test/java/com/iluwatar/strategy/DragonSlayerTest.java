@@ -36,7 +36,7 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 public class DragonSlayerTest {
 
   /**
-   * Verify if the dragon slayer uses the strategy during battle
+   * Verify if the dragon slayer uses the strategy2 during battle
    */
   @Test
   public void testGoToBattle() {
@@ -49,7 +49,7 @@ public class DragonSlayerTest {
   }
 
   /**
-   * Verify if the dragon slayer uses the new strategy during battle after a change of strategy
+   * Verify if the dragon slayer uses the new strategy2 during battle after a change of strategy2
    */
   @Test
   public void testChangeStrategy() {

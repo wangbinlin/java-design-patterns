@@ -53,6 +53,13 @@ public class App {
    * @param args command line args
    */
   public static void main(String[] args) {
+    System.out.println("船长开划艇");
+
+    Captain captain1 = new Captain(new RowingBoatImpl());
+    captain1.row();
+
+    System.out.println("");
+    System.out.println("船长开渔船，用适配器模式");
     // The captain can only operate rowing boats but with adapter he is able to use fishing boats as well
     Captain captain = new Captain(new FishingBoatAdapter());
     captain.row();

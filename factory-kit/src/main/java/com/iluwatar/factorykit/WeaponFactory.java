@@ -28,6 +28,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
+ * 武器工厂
  * Functional interface, an example of the factory-kit design pattern.
  * <br>Instance created locally gives an opportunity to strictly define
  * which objects types the instance of a factory will be able to create.

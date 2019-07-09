@@ -22,6 +22,7 @@
  */
 package com.iluwatar.factorykit;
 /**
+ * 剑
  * Class representing Swords
  */
 public class Sword implements Weapon {

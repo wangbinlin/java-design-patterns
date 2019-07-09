@@ -79,7 +79,7 @@ public class DragonSlayingStrategyTest {
 
 
   /**
-   * Test if executing the strategy gives the correct response
+   * Test if executing the strategy2 gives the correct response
    */
   @ParameterizedTest
   @MethodSource("dataProvider")

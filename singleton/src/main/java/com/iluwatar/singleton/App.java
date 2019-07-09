@@ -42,7 +42,7 @@ import org.slf4j.LoggerFactory;
  * <p>
  * The other option to implement eagerly initialized Singleton is enum based Singleton. The example
  * is found in {@link EnumIvoryTower}. At first glance the code looks short and simple. However, you
- * should be aware of the downsides including committing to implementation strategy, extending the
+ * should be aware of the downsides including committing to implementation strategy2, extending the
  * enum class, serializability and restrictions to coding. These are extensively discussed in Stack
  * Overflow:
  * http://programmers.stackexchange.com/questions/179386/what-are-the-downsides-of-implementing

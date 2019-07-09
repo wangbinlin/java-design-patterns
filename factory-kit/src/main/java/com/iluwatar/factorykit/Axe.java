@@ -23,6 +23,7 @@
 package com.iluwatar.factorykit;
 
 /**
+ * 斧头
  * Class representing Axe
  */
 public class Axe implements Weapon {

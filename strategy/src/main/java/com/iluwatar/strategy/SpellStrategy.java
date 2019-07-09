@@ -26,8 +26,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 
- * Spell strategy.
+ * 用魔法或者咒语方式
+ *
+ * Spell strategy2.
  *
  */
 public class SpellStrategy implements DragonSlayingStrategy {

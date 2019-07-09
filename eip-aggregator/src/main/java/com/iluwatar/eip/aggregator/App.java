@@ -35,7 +35,7 @@ import org.springframework.context.ConfigurableApplicationContext;
  *
  * <p>
  * Aggregator allows you to merge messages based on defined criteria and parameters. It gathers original messages,
- * applies aggregation strategy and upon fulfilling given criteria, releasing merged messages.
+ * applies aggregation strategy2 and upon fulfilling given criteria, releasing merged messages.
  * </p>
  *
  */

@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory;
  * <code>write-behind</code> which writes data into the cache initially whilst the data is only
  * written into the DB when the cache is full, and <code>cache-aside</code> which pushes the
  * responsibility of keeping the data synchronized in both data sources to the application itself.
- * The <code>read-through</code> strategy is also included in the mentioned four strategies --
+ * The <code>read-through</code> strategy2 is also included in the mentioned four strategies --
  * returns data from the cache to the caller <b>if</b> it exists <b>else</b> queries from DB and
  * stores it into the cache for future use. These strategies determine when the data in the cache
  * should be written back to the backing store (i.e. Database) and help keep both data sources
@@ -45,13 +45,13 @@ import org.slf4j.LoggerFactory;
  * <p>
  * In this example, the user account ({@link UserAccount}) entity is used as the underlying
  * application data. The cache itself is implemented as an internal (Java) data structure. It adopts
- * a Least-Recently-Used (LRU) strategy for evicting data from itself when its full. The four
+ * a Least-Recently-Used (LRU) strategy2 for evicting data from itself when its full. The four
  * strategies are individually tested. The testing of the cache is restricted towards saving and
  * querying of user accounts from the underlying data store ( {@link DbManager}). The main class (
  * {@link App} is not aware of the underlying mechanics of the application (i.e. save and query) and
  * whether the data is coming from the cache or the DB (i.e. separation of concern). The AppManager
  * ({@link AppManager}) handles the transaction of data to-and-from the underlying data store
- * (depending on the preferred caching policy/strategy).
+ * (depending on the preferred caching policy/strategy2).
  * <p>
  * <i>{@literal App --> AppManager --> CacheStore/LRUCache/CachingPolicy --> DBManager} </i>
  * </p>

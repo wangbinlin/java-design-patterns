@@ -23,6 +23,7 @@
 package com.iluwatar.adapter;
 
 /**
+ * 划艇
  * The interface expected by the client.<br>
  * A rowing boat is rowed to move.
  *

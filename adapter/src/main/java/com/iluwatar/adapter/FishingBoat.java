@@ -26,7 +26,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- *
+ * 渔船
  * Device class (adaptee in the pattern). We want to reuse this class.
  * Fishing boat moves by sailing.
  *

@@ -27,7 +27,7 @@ import java.text.ParseException;
 /**
  *
  * AppManager helps to bridge the gap in communication between the main class and the application's
- * back-end. DB connection is initialized through this class. The chosen caching strategy/policy is
+ * back-end. DB connection is initialized through this class. The chosen caching strategy2/policy is
  * also initialized here. Before the cache can be used, the size of the cache has to be set.
  * Depending on the chosen caching policy, AppManager will call the appropriate function in the
  * CacheStore class.

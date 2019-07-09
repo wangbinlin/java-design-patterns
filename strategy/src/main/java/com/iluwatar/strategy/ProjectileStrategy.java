@@ -26,8 +26,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 
- * Projectile strategy.
+ * 射箭方式
+ * Projectile strategy2.
  *
  */
 public class ProjectileStrategy implements DragonSlayingStrategy {
