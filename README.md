@@ -45,3 +45,22 @@ If you are willing to contribute to the project you will find the relevant infor
 # License
 
 This project is licensed under the terms of the MIT license.
+
+
+
+来源：https://github.com/iluwatar/java-design-patterns
+
+来源互联网
+
+
+
+# 策略模式
+应用场景：买单时的优惠方案
+
+<figure style="font-size: inherit;color: inherit;line-height: inherit;"><img class="" data-ratio="0.459748427672956" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/C1uDMDqjn1icN7uVU6XoaXkU7kAfwztdliaa89X4vnazA8jMluTPBkDhW2kspHLuzKYyicFkBqbPy2vRL7CXXMPcw/640?wx_fmt=jpeg" data-type="jpeg" data-w="3180" style="font-size: inherit; color: inherit; line-height: inherit; display: block; margin-right: auto; margin-left: auto; width: 752px !important; height: auto !important; visibility: visible !important;" title="-w1590" _width="752px" src="https://mmbiz.qpic.cn/mmbiz_jpg/C1uDMDqjn1icN7uVU6XoaXkU7kAfwztdliaa89X4vnazA8jMluTPBkDhW2kspHLuzKYyicFkBqbPy2vRL7CXXMPcw/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" crossorigin="anonymous" data-fail="0"></figure>
+
+strategy
+可以通过接口+组合的方式，实现策略，减少if else 
+
+
+
